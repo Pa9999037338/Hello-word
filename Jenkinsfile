@@ -1,4 +1,4 @@
-node('Jenkins_Master') {
+node {
    def mvnHome
    stage('Preparation') { 
       
