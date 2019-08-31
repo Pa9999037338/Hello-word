@@ -2,9 +2,9 @@ node('Jenkins_Master') {
    def mvnHome
    stage('Preparation') { 
       
-      git 'https://github.com/ip-card/acard.git'
+      git 'https://github.com/Pa9999037338/Hello-word.git'
               
-      mvnHome = tool 'maven-3.6.1'
+      mvnHome = tool 'Maven'
    }
    stage('Build') {
       
